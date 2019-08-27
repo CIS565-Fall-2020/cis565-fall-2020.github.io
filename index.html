@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>CIS 565: GPU Programming and Architecture. Fall 2018.</title>
+<title>CIS 565: GPU Programming and Architecture. Fall 2019.</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <style type="text/css">
@@ -18,18 +18,18 @@ body {
         <td>
             <h1>CIS 565: GPU Programming and Architecture</h1>
             <p align="center">
-            Fall 2018
+            Fall 2019
             </p>
             <p align="center">
-            <a href="http://www.seas.upenn.edu/~pcozzi/">Patrick Cozzi</a>
+            <strong><a href="">Shehzan Mohammed</a></strong><br />
             </p>
             <p align="center">
             University of Pennsylvania<br />
             <a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a><br/><br/>
-            <img src="images/previous_projects/fengkai.gif" height="150" />
-            <img src="images/previous_projects/jin_josh.png" height="150" />
-            <img src="images/previous_projects/mariano_hamoudi.gif" height="150" />
-            <img src="images/previous_projects/youssef_will.png" height="150" />
+            <img src="images/previous_projects/hybrid-pbr.gif" height="150" />
+            <img src="images/previous_projects/MPM.gif" height="150" />
+            <img src="images/previous_projects/rayraster-hybrid.gif" height="150" />
+            <img src="images/previous_projects/rtx-explore.gif" height="150" />
             </p>
         </td>
         <td valign="top">
@@ -41,11 +41,11 @@ body {
             <br />
             <a href="index.html">Course Overview</a>
             &bullet;
-            <a href="https://docs.google.com/spreadsheets/d/1T9PUorToKPRlr3f4Tkm6CSb9FyhrXoZBtEm3ceAmKIs/edit?usp=sharing">Schedule</a>
+            <a href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">Schedule</a>
             &bullet;
             <a href="studentwork.html"> Student Work </a>
             &bullet;
-            <a href="https://cis565-fall-2017.github.io/">Previous semester</a>
+            <a href="https://cis565-fall-2018.github.io/">Previous semester</a>
         </td>
     </tr>
 </table>
@@ -62,7 +62,7 @@ A timely selection from the following topics:
 <ul>
     <li><span style="font-weight: bold;">GPU Computing</span>: GPU architecture, massively parallel programming, parallel algorithms, performance</li>
     <li><span style="font-weight: bold;">Rendering</span>: Graphics pipeline (rasterization), path tracing, deferred shading, forward+ rendering, VR</li>
-    <li><span style="font-weight: bold;">APIs</span>: CUDA, WebGL, Vulkan</li>
+    <li><span style="font-weight: bold;">APIs</span>: CUDA, WebGL, RTX, Vulkan</li>
 </ul>
 </p>
 <p>
@@ -87,9 +87,9 @@ For a course more focused on GPU architecture without graphics, see Joe Devietti
 
 <h2>Repos, Schedule, Google Group, and LinkedIn</h2>
 <ul>
-<li><a href="https://github.com/CIS565-Fall-2018">Repos</a>: fork your repos from here</li>
-<li><a href="https://docs.google.com/spreadsheets/d/1T9PUorToKPRlr3f4Tkm6CSb9FyhrXoZBtEm3ceAmKIs/edit?usp=sharing">Google Doc</a>: for the class schedule, slides, and project schedule<br /></li>
-<li><a href="https://groups.google.com/d/forum/cis-565-fall-2018">cis-565-fall-2018@googlegroups.com</a>: google group for general and project questions<br /></li>
+<li><a href="https://github.com/CIS565-Fall-2019">Repos</a>: fork your repos from here</li>
+<li><a href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">OneDrive Doc</a>: for the class schedule, slides, and project schedule<br /></li>
+<li><a href="https://piazza.com/class/jz8re68445r142">Piazza</a>: a webpage for questions and discussions related to the course and the assignments<br /></li>
 <li><a href="http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935">LinkedIn Group</a>: for networking with current and previous course students</li>
 </ul>
 
@@ -108,21 +108,21 @@ For a course more focused on GPU architecture without graphics, see Joe Devietti
 
 <h2>Teaching Assistants</h2>
 <p>
-<strong><a href="http://ottav.io">Ottavio Hartman</a>, hartmano@sas.upenn.edu</strong><br />
+<strong><a href="http://hannahbollar.com">Hannah Bollar</a>, hbollar@seas.upenn.edu</strong><br />
 Office: SIG Lab<br />
-Office Hours: Tuesday 10:30am-noon, Wednesday 12:30pm-2<br />
-<img src="images/headshots/ottavio_hartman.gif" width="140" alt="Ottavio Hartman" />
-</p>
-<strong><a href="https://github.com/yashv28">Yash Vardan</a>, yashv@seas.upenn.edu</strong><br />
-Office: SIG Lab<br />
-Office Hours: Thursday 1-4<br />
-<img src="images/headshots/yash_vardhan.jpg" width="140" alt="Yash Vardhan" />
-</p>
+Office Hours: TBD<br />
+<img src="images/headshots/Hannah_Bollar.jpg" width="140" alt="Hannah Bollar" />
 <p>
 <strong><a href="http://youssefvictor.com/">Youssef Victor</a>, vicy@seas.upenn.edu</strong><br />
 Office: SIG Lab<br />
-Office Hours: Monday, Thursday 10am-12<br />
+Office Hours: TBD<br />
 <img src="images/headshots/Youssef_Victor.jpg" width="140" alt="Youssef Victor" />
+</p>
+<p>
+<strong><a href="https://github.com/ziedbha">Ziad Ben Hadj-Alouane</a>, ziadb@seas.upenn.edu</strong><br />
+Office: SIG Lab<br />
+Office Hours: TBD<br />
+<img src="images/headshots/Zied_Bha.jpg" width="140" alt="Ziad Ben Hadj-Alouane" />
 </p>
 <p>
 
@@ -159,13 +159,16 @@ An academic integrity violation will result in the student receiving an F in thi
 <p>
 See <a href="http://www.upenn.edu/academicintegrity/">Academic Integrity at the University of Pennsylvania: A Guide for Students</a>.
 </p>
+<p>
+    <strong>Code submissions will be cross-checked for plaigarism against previous years' submissions as well as submissions from your colleagues using automated software. <u>Please do not copy code.</u></strong>
+</p>
 
 <h2>Acknowledgments</h2>
 <p>
 <a href="http://www.josephkider.com/">Joe Kider</a>, <a href="http://www.linkedin.com/pub/gary-katz/3/a40/a1b">Gary Katz</a>, and <a href="http://www.cs.utah.edu/~suresh/web/">Suresh Venkatasubramanian</a> taught this course before me.
 </p>
 <p>
-All former TAs have helped shape this course: <a href="http://miaokaixiang.com/">Kaixiang Miao</a>, <a href="http://austin-eng.co/">Austin Eng</a>, <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a>, <a href="http://likangning93.wixsite.com/home">Gary Li</a>, <a href="http://kainino0x.github.io/">Kai Ninomiya</a>, <a href="http://www.harmonymli.com">Harmony Li</a>, <a href="http://liamboone.blogspot.com/">Liam Boone</a>, <a href="http://www.yiningkarlli.com/">Karl Li</a>, <a href="http://vsampath.com/">Varun Sampath</a>, and <a href="http://mccaffreydev.blogspot.com/">Jon McCaffrey</a>.
+All former TAs have helped shape this course: <a href="http://miaokaixiang.com/">Kaixiang Miao</a>, <a href="http://ottav.io/">Ottavio Hartman</a>, <a href="https://github.com/yashv28">Yash Vardhan</a>, <a href="http://austin-eng.co/">Austin Eng</a>, <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a>, <a href="http://likangning93.wixsite.com/home">Gary Li</a>, <a href="http://kainino0x.github.io/">Kai Ninomiya</a>, <a href="http://www.harmonymli.com">Harmony Li</a>, <a href="http://liamboone.blogspot.com/">Liam Boone</a>, <a href="http://www.yiningkarlli.com/">Karl Li</a>, <a href="http://vsampath.com/">Varun Sampath</a>, and <a href="http://mccaffreydev.blogspot.com/">Jon McCaffrey</a>.
 </p>
 <p>
 Previous students have provided significant course feedback including: <a href="http://www.linkedin.com/pub/xing-du/3a/626/a23">Xing Du</a>, <a href="http://www.yiningkarlli.com/demoreel/">Karl Li</a>, and <a href="http://ianlilley.wordpress.com/">Ian Lilley</a>.
