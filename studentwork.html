@@ -1,85 +1,80 @@
 <html>
-<head>
-<title>CIS 565: GPU Programming and Architecture. Fall 2019.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head>
+        <title>CIS 565: GPU Programming and Architecture. Fall 2019.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<style type="text/css">
-body {
-    font-family:"Helvetica";
-}
-</style>
-<link rel="shortcut icon" type="image/png" href="favicon.gif"/>
-</head>
+        <style type="text/css">
+            body {
+                font-family:"Helvetica";
+            }
+        </style>
+        <link rel="shortcut icon" type="image/png" href="favicon.gif"/>
+    </head>
+    <body>
+        <table border="0" summary="" width="75%" align="center">
+            <tr align="center">
+                <td>
+                    <h1>CIS 565: GPU Programming and Architecture</h1>
+                    <p align="center">
+                        Fall 2019
+                    </p>
+                    <p align="center">
+                        <strong><a href="https://twitter.com/shehzanm">Shehzan Mohammed</a></strong><br/>
+                    </p>
+                    <p align="center">
+                        University of Pennsylvania<br/>
+                        <a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a><br/><br/>
+                        <img src="images/previous_projects/hybrid-pbr.gif" height="150" />
+                        <img src="images/previous_projects/MPM.gif" height="150" />
+                        <img src="images/previous_projects/rayraster-hybrid.gif" height="150" />
+                        <img src="images/previous_projects/rtx-explore.gif" height="150" />
+                    </p>
+                </td>
+                <td valign="top">
+                    <img src ="images/shield.gif" width="63" height="70" alt="University of Pennsylvania" />
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <br/>
+                    <a href="index.html">Course Overview</a>
+                    &bullet;
+                    <a target="_blank" href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">Schedule</a>
+                    &bullet;
+                    <a href="studentwork.html"> Student Work </a>
+                    &bullet;
+                    <a href="https://cis565-fall-2018.github.io/">Previous semester</a>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <table border="0" summary="" width="75%" align="center">
+            <tr>
+                <td>
+                    <h2>Final Projects</h2>
+                    <p><strong><center>TBD.</center></strong></br>Final Projects are an oppurtunity for students to combine what they learned during the semester to add something new and unique to the GPU community! For inspiration, see last years projects <a href="https://cis565-fall-2018.github.io/studentwork.html">here</a>.
+                    <!--
+                        </p>
+                        <table border="0" summary="" width="900">
+                        <tr><td><img class="prjthumb" src="images/projects/salaar.gif"/></td><td>Ishan Ranade<br>Salaar Kohari</td><td><a href="https://github.com/IshanRanade/RealTimeFluids" target="_blank">Real Time Fluid Simulation using Tall Cells</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/MPM.gif"/></td><td>Bowen Yang</td><td><a href="https://github.com/cffjiang/mgmpm-gpu" target="_blank">Multigrid Material Point Method on GPU</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/3dobject.gif"/></td><td>Yu Sun</td><td><a href="https://github.com/sunfish2010/3D-Descriptor-For-Object-Recognition" target="_blank">3D Descriptor for Object Recognition with CUDA</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/rtx-explore.bmp"/></td><td>Ziad Ben Hadj-Alouane<br>Lian Dugan<br>Henry Zhu</td><td><a href="https://github.com/rtx-on/rtx-explore" target="_blank">RTX-Explore: Interactive DXR Path Tracer</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/odin.gif"/></td><td>Hannah Bollar<br>Eric Chiu</td><td><a href="https://github.com/hanbollar/GPU-Final-Project" target="_blank">Odin - gpujs crowd simulation</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/hazumu.png"/></td><td>Emily Vo<br>Alexander Chan</td><td><a href="https://github.com/emily-vo/hazumu" target="_blank">Hybrid Raytracing with Dynamic Scenes using CUDA and OpenGL</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/dxr-photon.gif"/></td><td>Connie Chang<br>Anantha Srinivas</td><td><a href="https://github.com/ananthaks/DXR-PhotonMapper" target="_blank">Photon Mapping implemented using DXR</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/spice_test.png" /></td><td>Angelina Risi</td><td><a href="https://github.com/risia/CUDA-SPICE-Circuit-Sim" target="_blank">CUDA Accelerated VLSI Circuit Modelling</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/vulkanhybrid.gif"/></td><td>Zichuan Yu<br>Xinyu Lin</td><td><a href="https://github.com/Zichuanyun/Vulkan-Hybrid-PBR-Renderer" target="_blank">Advanced Hybrid Ray-Raster Render Engine in Vulkan</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/default.gif"/></td><td>Edward Atter<br>Siyu Zheng<br>Yan Wu</td><td><a href="https://github.com/GoCyberEd/Locust" target="_blank">Locust: Distributed Map Reduce with GPU Acceleration</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/cloth1.gif"/></td><td>Yichen Shou<br>Jie Meng</td><td><a href="https://github.com/Ninjajie/Fusion" target="_blank">Fusion: GPU Accelerated PBD Simulator for Unity</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/cloth2.png"/></td><td>Vasu Mahesh<br>Zach Corse<br>Ju Yang</td><td><a href="https://github.com/vasumahesh1/Flamenco" target="_blank">PDB Cloth Simulation with Contact Caching for Games</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/fluid1.gif"/></td><td>Xiao Zhang<br>Lan Lou</td><td><a href="https://github.com/ACskyline/Wave-Particles-with-Interactive-Vortices" target="_blank">Wave Particles with Interactive Vortices</a></td></tr>
+                        <tr><td><img class="prjthumb" src="images/projects/wanru.gif"/></td><td>Yuru Wang<br>Wanru Zhao</td><td><a href="https://github.com/WanruZhao/CIS565-Final-Project" target="_blank">GPU Rasterized and Ray Traced Real Time Rendering Using WebGL</a></td></tr>
+                        </table>
+                    -->
 
-<body>
-
-<table border="0" summary="" width="75%" align="center">
-    <tr align="center">
-        <td>
-            <h1>CIS 565: GPU Programming and Architecture</h1>
-            <p align="center">
-            Fall 2019
-            </p>
-            <p align="center">
-            <strong><a href="">Shehzan Mohammed</a></strong><br />
-            </p>
-            <p align="center">
-            University of Pennsylvania<br />
-            <a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a><br/><br/>
-            <img src="images/previous_projects/hybrid-pbr.gif" height="150" />
-            <img src="images/previous_projects/MPM.gif" height="150" />
-            <img src="images/previous_projects/rayraster-hybrid.gif" height="150" />
-            <img src="images/previous_projects/rtx-explore.gif" height="150" />
-            </p>
-        </td>
-        <td valign="top">
-            <img src ="images/shield.gif" width="63" height="70" alt="University of Pennsylvania" />
-        </td>
-    </tr>
-    <tr align="center">
-        <td>
-            <br />
-            <a href="index.html">Course Overview</a>
-            &bullet;
-            <a href="https://docs.google.com/spreadsheets/d/1T9PUorToKPRlr3f4Tkm6CSb9FyhrXoZBtEm3ceAmKIs/edit?usp=sharing">Schedule</a>
-            &bullet;
-            <a href="studentwork.html"> Student Work </a>
-            &bullet;
-            <a href="https://cis565-fall-2018.github.io/">Previous semester</a>
-        </td>
-    </tr>
-</table>
-<br />
-
-<table border="0" summary="" width="75%" align="center">
-<tr><td>
-
-<table border="0" summary="" width="75%" align="center">
-<tr><td>
-
-<h2>Final Projects</h2>
-    <p> <strong><center>TBD.</center> </strong></br>Final Projects are an oppurtunity for students to combine what they learned during the semester to add something new and unique to the GPU community! For inspiration, see last years projects <a href="https://cis565-fall-2018.github.io/studentwork.html">here</a>.
-<!--
-</p>
-<table border="0" summary="" width="900">
-<tr><td><img class="prjthumb" src="images/projects/salaar.gif"/></td><td>Ishan Ranade<br>Salaar Kohari</td><td><a href="https://github.com/IshanRanade/RealTimeFluids" target="_blank">Real Time Fluid Simulation using Tall Cells</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/MPM.gif"/></td><td>Bowen Yang</td><td><a href="https://github.com/cffjiang/mgmpm-gpu" target="_blank">Multigrid Material Point Method on GPU</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/3dobject.gif"/></td><td>Yu Sun</td><td><a href="https://github.com/sunfish2010/3D-Descriptor-For-Object-Recognition" target="_blank">3D Descriptor for Object Recognition with CUDA</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/rtx-explore.bmp"/></td><td>Ziad Ben Hadj-Alouane<br>Lian Dugan<br>Henry Zhu</td><td><a href="https://github.com/rtx-on/rtx-explore" target="_blank">RTX-Explore: Interactive DXR Path Tracer</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/odin.gif"/></td><td>Hannah Bollar<br>Eric Chiu</td><td><a href="https://github.com/hanbollar/GPU-Final-Project" target="_blank">Odin - gpujs crowd simulation</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/hazumu.png"/></td><td>Emily Vo<br>Alexander Chan</td><td><a href="https://github.com/emily-vo/hazumu" target="_blank">Hybrid Raytracing with Dynamic Scenes using CUDA and OpenGL</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/dxr-photon.gif"/></td><td>Connie Chang<br>Anantha Srinivas</td><td><a href="https://github.com/ananthaks/DXR-PhotonMapper" target="_blank">Photon Mapping implemented using DXR</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/spice_test.png" /></td><td>Angelina Risi</td><td><a href="https://github.com/risia/CUDA-SPICE-Circuit-Sim" target="_blank">CUDA Accelerated VLSI Circuit Modelling</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/vulkanhybrid.gif"/></td><td>Zichuan Yu<br>Xinyu Lin</td><td><a href="https://github.com/Zichuanyun/Vulkan-Hybrid-PBR-Renderer" target="_blank">Advanced Hybrid Ray-Raster Render Engine in Vulkan</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/default.gif"/></td><td>Edward Atter<br>Siyu Zheng<br>Yan Wu</td><td><a href="https://github.com/GoCyberEd/Locust" target="_blank">Locust: Distributed Map Reduce with GPU Acceleration</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/cloth1.gif"/></td><td>Yichen Shou<br>Jie Meng</td><td><a href="https://github.com/Ninjajie/Fusion" target="_blank">Fusion: GPU Accelerated PBD Simulator for Unity</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/cloth2.png"/></td><td>Vasu Mahesh<br>Zach Corse<br>Ju Yang</td><td><a href="https://github.com/vasumahesh1/Flamenco" target="_blank">PDB Cloth Simulation with Contact Caching for Games</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/fluid1.gif"/></td><td>Xiao Zhang<br>Lan Lou</td><td><a href="https://github.com/ACskyline/Wave-Particles-with-Interactive-Vortices" target="_blank">Wave Particles with Interactive Vortices</a></td></tr>
-<tr><td><img class="prjthumb" src="images/projects/wanru.gif"/></td><td>Yuru Wang<br>Wanru Zhao</td><td><a href="https://github.com/WanruZhao/CIS565-Final-Project" target="_blank">GPU Rasterized and Ray Traced Real Time Rendering Using WebGL</a></td></tr>
-</table>
--->
-
-</td></tr>
-</table>
-</body>
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>

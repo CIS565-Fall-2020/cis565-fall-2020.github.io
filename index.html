@@ -1,184 +1,189 @@
 <html>
-<head>
-<title>CIS 565: GPU Programming and Architecture. Fall 2019.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head>
+        <title>CIS 565: GPU Programming and Architecture. Fall 2019.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<style type="text/css">
-body {
-    font-family:"Helvetica";
-}
-</style>
-<link rel="shortcut icon" type="image/png" href="favicon.gif"/>
-</head>
+        <style type="text/css">
+            body {
+                font-family:"Helvetica";
+            }
+        </style>
+        <link rel="shortcut icon" type="image/png" href="favicon.gif"/>
+    </head>
+    <body>
+        <table border="0" summary="" width="75%" align="center">
+            <tr align="center">
+                <td>
+                    <h1>CIS 565: GPU Programming and Architecture</h1>
+                    <p align="center">
+                        Fall 2019
+                    </p>
+                    <p align="center">
+                        <strong><a href="https://twitter.com/shehzanm">Shehzan Mohammed</a></strong><br/>
+                    </p>
+                    <p align="center">
+                        University of Pennsylvania<br/>
+                        <a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a><br/><br/>
+                        <img src="images/previous_projects/hybrid-pbr.gif" height="150" />
+                        <img src="images/previous_projects/MPM.gif" height="150" />
+                        <img src="images/previous_projects/rayraster-hybrid.gif" height="150" />
+                        <img src="images/previous_projects/rtx-explore.gif" height="150" />
+                    </p>
+                </td>
+                <td valign="top">
+                    <img src ="images/shield.gif" width="63" height="70" alt="University of Pennsylvania" />
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <br/>
+                    <a href="index.html">Course Overview</a>
+                    &bullet;
+                    <a target="_blank" href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">Schedule</a>
+                    &bullet;
+                    <a href="studentwork.html"> Student Work </a>
+                    &bullet;
+                    <a href="https://cis565-fall-2018.github.io/">Previous semester</a>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <table border="0" summary="" width="75%" align="center">
+            <tr>
+                <td>
+                    <h2>Description</h2>
+                    <p>
+                        A timely selection from the following topics:
+                    </p>
+                    <p>
+                    <ul>
+                        <li><span style="font-weight: bold;">GPU Computing</span>: GPU architecture, massively parallel programming, parallel algorithms, performance</li>
+                        <li><span style="font-weight: bold;">Rendering</span>: Graphics pipeline (rasterization), path tracing, deferred shading, forward+ rendering, VR</li>
+                        <li><span style="font-weight: bold;">APIs</span>: CUDA, WebGL, RTX, Vulkan</li>
+                    </ul>
+                    </p>
+                    <p>
+                        This is a project-intensive course with significant coding, writing, and presenting.  It is <strong>more work</strong> than any other course, but it is worth it.
+                    </p>
+                    <p>
+                        For a course more focused on GPU architecture without graphics, see Joe Devietti's <a href="http://www.cis.upenn.edu/~devietti/classes/cis601-spring2017/">CIS 601</a>.
+                    </p>
 
-<body>
+                    <h2>Prerequisites</h2>
+                    <ul>
+                        <li>Passion for computer graphics.</li>
+                        <li><a href="https://www.cis.upenn.edu/~cis460/current/">CIS 460/560</a>: Introduction to Computer Graphics.  Preferably received an A.  Knowledge of rasterization and ray tracing.</li>
+                        <li>Strong C or C++.</li>
+                        <li>Also useful:
+                            <ul>
+                                <li><a href="https://www.cis.upenn.edu/~badler/courses/cis561.html">CIS 461/561</a>: Advanced Computer Graphics,</li>
+                                <li><a href="https://www.cis.upenn.edu/~cis371/18sp/">CIS 371</a>: Digital Systems Organization and Design, or</li>
+                                <li><a href="https://www.cis.upenn.edu/~cis501/">CIS 501</a>: Introduction to Computer Architecture.</li>
+                            </ul>
+                        </li>
+                    </ul>
 
-<table border="0" summary="" width="75%" align="center">
-    <tr align="center">
-        <td>
-            <h1>CIS 565: GPU Programming and Architecture</h1>
-            <p align="center">
-            Fall 2019
-            </p>
-            <p align="center">
-            <strong><a href="">Shehzan Mohammed</a></strong><br />
-            </p>
-            <p align="center">
-            University of Pennsylvania<br />
-            <a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a><br/><br/>
-            <img src="images/previous_projects/hybrid-pbr.gif" height="150" />
-            <img src="images/previous_projects/MPM.gif" height="150" />
-            <img src="images/previous_projects/rayraster-hybrid.gif" height="150" />
-            <img src="images/previous_projects/rtx-explore.gif" height="150" />
-            </p>
-        </td>
-        <td valign="top">
-            <img src ="images/shield.gif" width="63" height="70" alt="University of Pennsylvania" />
-        </td>
-    </tr>
-    <tr align="center">
-        <td>
-            <br />
-            <a href="index.html">Course Overview</a>
-            &bullet;
-            <a href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">Schedule</a>
-            &bullet;
-            <a href="studentwork.html"> Student Work </a>
-            &bullet;
-            <a href="https://cis565-fall-2018.github.io/">Previous semester</a>
-        </td>
-    </tr>
-</table>
-<br />
+                    <h2>Github, Schedule, Google Group, and LinkedIn</h2>
+                    <ul>
+                        <li><a href="https://github.com/CIS565-Fall-2019">Github</a>: fork your repos from here</li>
+                        <li><a target="_blank" href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">Schedule</a>: for the class schedule, slides, and project schedule<br/></li>
+                        <li><a href="https://piazza.com/class/jz8re68445r142">Piazza</a>: a webpage for questions and discussions related to the course and the assignments<br/></li>
+                        <li><a href="http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935">LinkedIn Group</a>: for networking with current and previous course students</li>
+                    </ul>
 
-<table border="0" summary="" width="75%" align="center">
-<tr><td>
+                    <h2>Head Lecturer</h2>
+                    <p>
+                        <strong><a href="">Shehzan Mohammed</a>, mza@seas.upenn.edu</strong><br/>
+                        Office Hours: Monday and Wednesday 5:00pm-6:00pm (prior to class)<br/>
+                        <img src="images/headshots/shehzhan_mohammed.jpg" width="140" alt="Shehzan Mohammed" />
+                    </p>
 
-<h2>Description</h2>
-<p>
-A timely selection from the following topics:
-</p>
-<p>
-<ul>
-    <li><span style="font-weight: bold;">GPU Computing</span>: GPU architecture, massively parallel programming, parallel algorithms, performance</li>
-    <li><span style="font-weight: bold;">Rendering</span>: Graphics pipeline (rasterization), path tracing, deferred shading, forward+ rendering, VR</li>
-    <li><span style="font-weight: bold;">APIs</span>: CUDA, WebGL, RTX, Vulkan</li>
-</ul>
-</p>
-<p>
-This is a project-intensive course with significant coding, writing, and presenting.  It is <strong>more work</strong> than any other course, but it is worth it.
-</p>
-<p>
-For a course more focused on GPU architecture without graphics, see Joe Devietti's <a href="http://www.cis.upenn.edu/~devietti/classes/cis601-spring2017/">CIS 601</a>.
-</p>
+                    <h2>Course Advisor</h2>
+                    <p>
+                        <strong><a href="https://www.linkedin.com/in/patrickcozzi/">Patrick Cozzi</a></strong><br/>
+                        <img src="images/headshots/patrick_cozzi.jpg" width="140" alt="Patrick Cozzi" />
+                    </p>
 
-<h2>Prerequisites</h2>
-<ul>
-<li>Passion for computer graphics.</li>
-<li><a href="http://www.cis.upenn.edu/~badler/courses/cis560.html">CIS 460/560</a>: Introduction to Computer Graphics.  Preferably received an A.  Knowledge of rasterization and ray tracing.</li>
-<li>Strong C or C++.</li>
-<li>Also useful:
-    <ul>
-        <li><a href="https://www.cis.upenn.edu/~cis371/18sp/">CIS 371</a>: Digital Systems Organization and Design, or</li>
-        <li><a href="https://www.cis.upenn.edu/~cis501/">CIS 501</a>: Introduction to Computer Architecture.</li>
-    </ul>
-</li>
-</ul>
+                    <h2>Teaching Assistants</h2>
+                    <p>
+                        <strong><a href="http://hannahbollar.com">Hannah Bollar</a>, hbollar@seas.upenn.edu</strong><br/>
+                        Office: SIG Lab<br/>
+                        Office Hours: Tuesday 12:00pm-1:30pm; Friday 10:15am-11:45am<br/>
+                        <img src="images/headshots/Hannah_Bollar.jpg" width="140" alt="Hannah Bollar" />
+                    </p>
+                    <p>
+                        <strong><a href="http://youssefvictor.com/">Youssef Victor</a>, vicy@seas.upenn.edu</strong><br/>
+                        Office: SIG Lab<br/>
+                        Office Hours: TBD<br/>
+                        <img src="images/headshots/Youssef_Victor.jpg" width="140" alt="Youssef Victor" />
+                    </p>
+                    <p>
+                        <strong><a href="https://github.com/ziedbha">Ziad Ben Hadj-Alouane</a>, ziadb@seas.upenn.edu</strong><br/>
+                        Office: SIG Lab<br/>
+                        Office Hours: Saturday 9:00am-11:00am<br/>
+                        <img src="images/headshots/Zied_Bha.jpg" width="140" alt="Ziad Ben Hadj-Alouane" />
+                    </p>
 
-<h2>Repos, Schedule, Google Group, and LinkedIn</h2>
-<ul>
-<li><a href="https://github.com/CIS565-Fall-2019">Repos</a>: fork your repos from here</li>
-<li><a href="https://1drv.ms/x/s!AiLXbdZHgbemhdpsk6MSzhaeqr_Tew?e=fortpx">OneDrive Doc</a>: for the class schedule, slides, and project schedule<br /></li>
-<li><a href="https://piazza.com/class/jz8re68445r142">Piazza</a>: a webpage for questions and discussions related to the course and the assignments<br /></li>
-<li><a href="http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935">LinkedIn Group</a>: for networking with current and previous course students</li>
-</ul>
+                    <h2>Recommended Reading</h2>
+                    <ul>
+                        <li>
+                            <a href="http://www.realtimerendering.com/blog/4472-2/">Moving Graphics Research into Development</a>, Patrick Cozzi
+                        </li>
+                        <li>
+                            <a href="https://github.com/pjcozzi/Articles/blob/master/CIS565/GitHubRepo/README.md">How to Make an Attractive GitHub Repository</a>, Patrick Cozzi
+                        </li>
+                    </ul>
+                    <p>
+                        No books are required, but course material comes from many sources including:
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://www.elsevierdirect.com/morgan_kaufmann/kirk/">Programming Massively Parallel Processors</a>, Second Edition, 2012, David Kirk and Wen-mei Hwu.
+                            Old draft pdfs are on the <a href="http://courses.engr.illinois.edu/ece498al/Syllabus.html">website</a> for ECE 498 AL at UIUC.
+                        </li>
+                        <li><a href="http://www.realtimerendering.com/">Real-Time Rendering</a>, Third Edition, 2008, Tomas Akenine-M&ouml;ller, Eric Haines, and Naty Hoffman.</li>
+                    </ul>
 
-<h2>Head Lecturer</h2>
-<p>
-<strong><a href="">Shehzan Mohammed</a></strong><br />
-<img src="images/headshots/shehzhan_mohammed.jpg" width="140" alt="Shehzan Mohammed" />
-</p>
+                    <h2>Grading</h2>
+                    <ul>
+                        <li>Projects: 50%</li>
+                        <li>Final Project: 50%</li>
+                    </ul>
 
-<h2>Course Advisor</h2>
-<p>
-<strong><a href="http://www.seas.upenn.edu/~pcozzi/">Patrick Cozzi</a>, pjcozzi+cis565@gmail.com</strong><br/>
-<br />
-<img src="images/headshots/patrick_cozzi.jpg" width="140" alt="Patrick Cozzi" />
-</p>
+                    <h2>Academic Integrity</h2>
+                    <p>
+                        An academic integrity violation will result in the student receiving an F in this course.
+                    </p>
+                    <p>
+                        See <a href="http://www.upenn.edu/academicintegrity/">Academic Integrity at the University of Pennsylvania: A Guide for Students</a>.
+                    </p>
+                    <p>
+                        <strong>Code submissions will be cross-checked for plaigarism against previous years' submissions as well as submissions from your colleagues using automated software. <u>Please do not copy code.</u></strong>
+                    </p>
+                    <p>
+                        If you would like to use code not written by you for this class, please run it by the TAs using Piazza for permission to use it. Examples of code you will need to ask permission to use:
+                        <ul>
+                            <li>Public Github Repositories and other open source projects.</li>
+                            <li>Projects from other classes that will give you a non-trivial advantage for the project.</li>
+                        </ul>
+                        If you think you need to ask permission, you should ask. We will most likely approve all reasonable requests.
+                    </p>
 
-<h2>Teaching Assistants</h2>
-<p>
-<strong><a href="http://hannahbollar.com">Hannah Bollar</a>, hbollar@seas.upenn.edu</strong><br />
-Office: SIG Lab<br />
-Office Hours: TBD<br />
-<img src="images/headshots/Hannah_Bollar.jpg" width="140" alt="Hannah Bollar" />
-<p>
-<strong><a href="http://youssefvictor.com/">Youssef Victor</a>, vicy@seas.upenn.edu</strong><br />
-Office: SIG Lab<br />
-Office Hours: TBD<br />
-<img src="images/headshots/Youssef_Victor.jpg" width="140" alt="Youssef Victor" />
-</p>
-<p>
-<strong><a href="https://github.com/ziedbha">Ziad Ben Hadj-Alouane</a>, ziadb@seas.upenn.edu</strong><br />
-Office: SIG Lab<br />
-Office Hours: TBD<br />
-<img src="images/headshots/Zied_Bha.jpg" width="140" alt="Ziad Ben Hadj-Alouane" />
-</p>
-<p>
-
-<h2>Recommended Reading</h2>
-<ul>
-    <li>
-        <a href="http://www.realtimerendering.com/blog/4472-2/">Moving Graphics Research into Development</a>, Patrick Cozzi
-    </li>
-    <li>
-        <a href="https://github.com/pjcozzi/Articles/blob/master/CIS565/GitHubRepo/README.md">How to Make an Attractive GitHub Repository</a>, Patrick Cozzi
-    </li>
-</ul>
-<p>
-No books are required, but course material comes from many sources including:
-</p>
-<ul>
-    <li>
-        <a href="http://www.elsevierdirect.com/morgan_kaufmann/kirk/">Programming Massively Parallel Processors</a>, Second Edition, 2012, David Kirk and Wen-mei Hwu.
-        Old draft pdfs are on the <a href="http://courses.engr.illinois.edu/ece498al/Syllabus.html">website</a> for ECE 498 AL at UIUC.
-    </li>
-    <li><a href="http://www.realtimerendering.com/">Real-Time Rendering</a>, Third Edition, 2008, Tomas Akenine-M&ouml;ller, Eric Haines, and Naty Hoffman.</li>
-</ul>
-
-<h2>Grading</h2>
-<ul>
-    <li>Projects: 50%</li>
-    <li>Final Project: 50%</li>
-</ul>
-
-<h2>Academic Integrity</h2>
-<p>
-An academic integrity violation will result in the student receiving an F in this course.
-</p>
-<p>
-See <a href="http://www.upenn.edu/academicintegrity/">Academic Integrity at the University of Pennsylvania: A Guide for Students</a>.
-</p>
-<p>
-    <strong>Code submissions will be cross-checked for plaigarism against previous years' submissions as well as submissions from your colleagues using automated software. <u>Please do not copy code.</u></strong>
-</p>
-
-<h2>Acknowledgments</h2>
-<p>
-<a href="http://www.josephkider.com/">Joe Kider</a>, <a href="http://www.linkedin.com/pub/gary-katz/3/a40/a1b">Gary Katz</a>, and <a href="http://www.cs.utah.edu/~suresh/web/">Suresh Venkatasubramanian</a> taught this course before me.
-</p>
-<p>
-All former TAs have helped shape this course: <a href="http://miaokaixiang.com/">Kaixiang Miao</a>, <a href="http://ottav.io/">Ottavio Hartman</a>, <a href="https://github.com/yashv28">Yash Vardhan</a>, <a href="http://austin-eng.co/">Austin Eng</a>, <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a>, <a href="http://likangning93.wixsite.com/home">Gary Li</a>, <a href="http://kainino0x.github.io/">Kai Ninomiya</a>, <a href="http://www.harmonymli.com">Harmony Li</a>, <a href="http://liamboone.blogspot.com/">Liam Boone</a>, <a href="http://www.yiningkarlli.com/">Karl Li</a>, <a href="http://vsampath.com/">Varun Sampath</a>, and <a href="http://mccaffreydev.blogspot.com/">Jon McCaffrey</a>.
-</p>
-<p>
-Previous students have provided significant course feedback including: <a href="http://www.linkedin.com/pub/xing-du/3a/626/a23">Xing Du</a>, <a href="http://www.yiningkarlli.com/demoreel/">Karl Li</a>, and <a href="http://ianlilley.wordpress.com/">Ian Lilley</a>.
-</p>
-<p>
-Many passionate folks in our field have also provided course input: Johan Andersson, (<a href="https://twitter.com/repi">@repi</a>),Quarup Barreirinhas, (<a href="https://twitter.com/quarup">@quarup</a>), Wolfgang Engel, (<a href="https://twitter.com/wolfgangengel">@wolfgangengel</a>), Mikkel Gjoel, (<a href="https://twitter.com/pixelmager">@pixelmager</a>), Eric Haines, (<a href="https://twitter.com/pointinpolygon">@pointinpolygon</a>), Dominik Lazarek, (<a href="https://twitter.com/Omme">@Omme</a>), Emil Persson, (<a href="https://twitter.com/_Humus_">@_Humus_</a>), and Christophe Riccio, (<a href="https://twitter.com/g_truc">@g_truc</a>).
-</p>
-
-</td></tr>
-</table>
-
-</body>
+                    <h2>Acknowledgments</h2>
+                    <p>
+                        <a href="http://www.josephkider.com/">Joe Kider</a>, <a href="http://www.linkedin.com/pub/gary-katz/3/a40/a1b">Gary Katz</a>, and <a href="http://www.cs.utah.edu/~suresh/web/">Suresh Venkatasubramanian</a> taught this course before me.
+                    </p>
+                    <p>
+                        All former TAs have helped shape this course: <a href="http://miaokaixiang.com/">Kaixiang Miao</a>, <a href="http://ottav.io/">Ottavio Hartman</a>, <a href="https://github.com/yashv28">Yash Vardhan</a>, <a href="http://austin-eng.co/">Austin Eng</a>, <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a>, <a href="http://likangning93.wixsite.com/home">Gary Li</a>, <a href="http://kainino0x.github.io/">Kai Ninomiya</a>, <a href="http://www.harmonymli.com">Harmony Li</a>, <a href="http://liamboone.blogspot.com/">Liam Boone</a>, <a href="http://www.yiningkarlli.com/">Karl Li</a>, <a href="http://vsampath.com/">Varun Sampath</a>, and <a href="http://mccaffreydev.blogspot.com/">Jon McCaffrey</a>.
+                    </p>
+                    <p>
+                        Previous students have provided significant course feedback including: <a href="http://www.linkedin.com/pub/xing-du/3a/626/a23">Xing Du</a>, <a href="http://www.yiningkarlli.com/demoreel/">Karl Li</a>, and <a href="http://ianlilley.wordpress.com/">Ian Lilley</a>.
+                    </p>
+                    <p>
+                        Many passionate folks in our field have also provided course input: Johan Andersson, (<a href="https://twitter.com/repi">@repi</a>),Quarup Barreirinhas, (<a href="https://twitter.com/quarup">@quarup</a>), Wolfgang Engel, (<a href="https://twitter.com/wolfgangengel">@wolfgangengel</a>), Mikkel Gjoel, (<a href="https://twitter.com/pixelmager">@pixelmager</a>), Eric Haines, (<a href="https://twitter.com/pointinpolygon">@pointinpolygon</a>), Dominik Lazarek, (<a href="https://twitter.com/Omme">@Omme</a>), Emil Persson, (<a href="https://twitter.com/_Humus_">@_Humus_</a>), and Christophe Riccio, (<a href="https://twitter.com/g_truc">@g_truc</a>).
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>
