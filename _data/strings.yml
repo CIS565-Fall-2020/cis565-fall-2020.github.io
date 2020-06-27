@@ -1,0 +1,75 @@
+# Strings
+# =======================================================================================
+# This file contains all soft-coded strings of the theme.
+# You can edit them here if you want to change the wording of certain phrases,
+# e.g. maybe you prefer "Fetching…" to "Loading…", etc.
+#
+# You can also use this to "translate" the theme into different languages,
+# but note that this may not work in all situations,
+# especially for languages that differ significantly from English.
+
+# Free version
+# ---------------------------------------------------------------------------------------
+home:                  Home
+pages:                 Pages
+posts:                 Posts
+about:                 About
+related_posts:         Related Posts
+other_projects:        Other Projects
+comments:              Comments
+jump_to:               Jump to
+navigation:            Navigation
+social:                Social
+links:                 Links
+pagination:            Pagination
+newer:                 Newer
+older:                 Older
+back:                  Back
+permalink:             Permalink
+permalink_icon:        icon-link
+templates:             Templates (for web app)
+present:               present
+
+loading:               Loading…
+redirecting:           Redirecting…
+
+continue_reading:      >
+  Continue reading <!--post_title-->
+
+cookies_banner:
+  text:                >
+    This site uses cookies. [Cookies Policy](/cookies-policy/).
+  okay:                Okay
+
+not_found:
+  title:               '404: Page Not Found'
+  message:             |
+    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+    <!--home_link--> to try finding it again.
+  home_link:           Head back home
+
+error:
+  title:               Error
+  message:             |
+    Sorry, an error occurred while loading <!--link-->.
+
+# Separators
+# ---------------------------------------------------------------------------------------
+colon:                 ':'
+separator:             '|'
+category_start:        'in '
+category_spearator:    ' / '
+tag_start:             'on '
+tag_separator:         ', '
+from_to_separator:     '–'
+
+# Date formats
+# ---------------------------------------------------------------------------------------
+date_formats:
+  post:                '%d %b %Y'
+  related_post:        '%d %b %Y'
+  list_group_by:       '%Y'
+  list_entry:          '%d %b'
+  project:             '%Y'
+  projects_group_by:   '%Y'
+  resume:              '%b %Y'

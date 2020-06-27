@@ -1,0 +1,30 @@
+// You can add CSS rules here that will be inlucded in Hydejack's CSS file
+
+.nav-btn {
+    display: none;
+}
+
+.content {
+    padding-top: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: var(--font-weight-heading);
+    margin: 2rem 0 1rem;
+}
+
+.img-headshots {
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-projects {
+    height: 8rem;
+    overflow: hidden;
+    display: inline-block
+}
+
+.img-projects img {
+    height: 100%;
+    width: auto;
+}
