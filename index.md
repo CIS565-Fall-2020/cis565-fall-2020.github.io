@@ -21,11 +21,11 @@ A timeline section from the following topics:
 
 This is a project-intensive course with significant coding, writing, and presenting. It is **more work** than any other course, but it is worth it.
 
-For a course more focused on GPU architecture without graphics, see Joe Devietti's [CIS 601](https://www.cis.upenn.edu/~devietti/classes/cis601-spring2017/) (no longer offered at Penn).
+For a course more focused on GPU architecture without graphics, see Joe Devietti's [CIS 601](https://www.cis.upenn.edu/~devietti/classes/cis601-spring2017/){:target="_blank"} (no longer offered at Penn).
 
 ## COVID-19 and Plans for Fall 2020 Semester
 
-The University of Pennsylvania has [announced](https://penntoday.upenn.edu/announcements/message-community-about-penns-plans-fall-semester) its plans for the Fall 2020 semester. The University will be taking a hybrid approach to returning to campus, with part in-person teaching and part online classes.
+The University of Pennsylvania has [announced](https://penntoday.upenn.edu/announcements/message-community-about-penns-plans-fall-semester){:target="_blank"} its plans for the Fall 2020 semester. The University will be taking a hybrid approach to returning to campus, with part in-person teaching and part online classes.
 
 The CIS Department, CG@Penn, and CIS 565 team are looking into the best method of instruction and projects for CIS 565. The course will remain programming projects intensive with lecture to support those projects.
 
@@ -35,13 +35,13 @@ Given the challenges this presents, we will be **enforcing a mandatory course pr
 
 If you are interested in taking the course but do not have the prerequisites completed, please reach out to [Shehzan Mohammed](mailto:mza@seas.upenn.edu). We have to let you know that the course is very graphics and programming intensive and you will find it challenging without a graphics background, especially given that lectures and office hours will be remote.
 
-If you have registered for the course, or plan to, please complete this **required survey: [CIS 565 Fall 2020 Student Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAALDIch9UNFhVQ1hTREZEWUIzVkpDUk83VkNPVU5MRy4u)**.
+If you have registered for the course, or plan to, please complete this **required survey: [CIS 565 Fall 2020 Student Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAALDIch9UNFhVQ1hTREZEWUIzVkpDUk83VkNPVU5MRy4u){:target="_blank"}**.
 
 ## Prerequisites
 
 * Passion for computer graphics.
 * At least one of:
-  * **[CIS 460/560](https://www.cis.upenn.edu/~cis460/current/): Introduction to Computer Graphics.**
+  * **[CIS 460/560](https://www.cis.upenn.edu/~cis460/current/){:target="_blank"}: Introduction to Computer Graphics.**
   * **CIS 461/561: Advance Rendering**
   * Preferably received an A. Knowledge of rasterization and ray tracing.
 * Strong C or C++.
@@ -51,12 +51,12 @@ If you have registered for the course, or plan to, please complete this **requir
 
 ## Github, Schedule, Class Forum, and LinkedIn
 
-* [Github](https://github.com/CIS565-Fall-2020): fork your repos from here
-* [LinkedIn Group](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935): for networking with current and previous course students
+* [Github](https://github.com/CIS565-Fall-2020){:target="_blank"}: fork your repos from here
+* [LinkedIn Group](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935){:target="_blank"}: for networking with current and previous course students
 
 ## Head Lecturer
 
-**[Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/) mza@seas.upenn.edu**
+**[Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/){:target="_blank"} mza@seas.upenn.edu**
 
 Office Hours: TBD
 
@@ -64,7 +64,7 @@ Office Hours: TBD
 
 ## Course Advisor
 
-**[Patrick Cozzi](https://www.linkedin.com/in/patrickcozzi/)**
+**[Patrick Cozzi](https://www.linkedin.com/in/patrickcozzi/){:target="_blank"}**
 
 ![Patrick Cozzi](assets/images/headshots/patrick_cozzi.jpg){:class="img-headshots"}
 
@@ -86,7 +86,7 @@ Office Hours: TBD
 * [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) (Coursera free)
 * [Deep Learning Book](https://www.deeplearningbook.org/) (Free to read in HTML)
 * [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-* [All previous CIS 565](https://cis565-fall-2018.github.io) (https://cis565-fall-201X.github.io)
+* [All previous CIS 565](https://cis565-fall-2019.github.io) (https://cis565-fall-201X.github.io)
 
 ## Grading
 
@@ -97,7 +97,7 @@ Office Hours: TBD
 
 An academic integrity violation will result in the student receiving an F in this course.
 
-See [Academic Integrity at the University of Pennsylvania: A Guide for Students](http://www.upenn.edu/academicintegrity/).
+See [Academic Integrity at the University of Pennsylvania: A Guide for Students](http://www.upenn.edu/academicintegrity/){:target="_blank"}.
 
 **Code submissions will be cross-checked for plaigarism against previous years' submissions as well as submissions from your colleagues using automated software. <u>Please do not copy code.</u>**
 
@@ -129,13 +129,14 @@ Previous students have provided significant course feedback including:
 
 Many passionate folks in our field have also provided course input:
 
-* Eric Haines, ([@pointinpolygon](https://twitter.com/pointinpolygon))
-* Christophe Riccio, ([@g_truc](https://twitter.com/g_truc))
-* Johan Andersson, ([@repi](https://twitter.com/repi))
-* Quarup Barreirinhas, ([@quarup](https://twitter.com/quarup))
-* Wolfgang Engel, ([@wolfgangengel](https://twitter.com/wolfgangengel))
-* Mikkel Gjoel, ([@pixelmager](https://twitter.com/pixelmager))
-* Dominik Lazarek, ([@Omme](https://twitter.com/Omme))
-* Emil Persson, ([@_Humus_](https://twitter.com/_Humus_))
-* Sebastien Vandenberghe ([@sebavanmicrosof](https://github.com/sebavanmicrosof))
-* [Chrome GPU Team](https://www.chromium.org/developers/design-documents/chromium-graphics), which includes many former CIS 565 Alumni.
+* Eric Haines, ([@pointinpolygon](https://twitter.com/pointinpolygon){:target="_blank"})
+* Christophe Riccio, ([@g_truc](https://twitter.com/g_truc){:target="_blank"})
+* Johan Andersson, ([@repi](https://twitter.com/repi){:target="_blank"})
+* Quarup Barreirinhas, ([@quarup](https://twitter.com/quarup){:target="_blank"})
+* Wolfgang Engel, ([@wolfgangengel](https://twitter.com/wolfgangengel){:target="_blank"})
+* Mikkel Gjoel, ([@pixelmager](https://twitter.com/pixelmager){:target="_blank"})
+* Dominik Lazarek, ([@Omme](https://twitter.com/Omme){:target="_blank"})
+* Emil Persson, ([@_Humus_](https://twitter.com/_Humus_){:target="_blank"})
+* Sebastien Vandenberghe ([@sebavanmicrosof](https://github.com/sebavanmicrosof){:target="_blank"})
+* [Chrome GPU Team](https://www.chromium.org/developers/design-documents/chromium-graphics){:target="_blank"}, which includes many former CIS 565 Alumni.
+
