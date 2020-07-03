@@ -4,12 +4,13 @@ title: CIS 565 GPU Programming and Architecture <br> Fall 2020
 description: >
   Website for CIS 565 GPU Programming and Architecture Fall 2020 at the University of Pennsylvania
 hide_description: true
+permalink: /
 ---
 
-![tianming.gif](assets/images/previous_projects/tianming.gif){:class="img-projects"}
-![kayton.gif](assets/images/previous_projects/klayton.gif){:class="img-projects"}
-![dewang.gif](assets/images/previous_projects/dewang.gif){:class="img-projects"}
-![grace_caroline.gif](assets/images/previous_projects/grace_caroline.gif){:class="img-projects"}
+![tianming.gif](/assets/images/previous_projects/tianming.gif){:class="img-projects"}
+![kayton.gif](/assets/images/previous_projects/klayton.gif){:class="img-projects"}
+![dewang.gif](/assets/images/previous_projects/dewang.gif){:class="img-projects"}
+![grace_caroline.gif](/assets/images/previous_projects/grace_caroline.gif){:class="img-projects"}
 
 ## Course Description
 
@@ -51,22 +52,22 @@ If you have registered for the course, or plan to, please complete this **requir
 
 ## Github, Schedule, Class Forum, and LinkedIn
 
-* [Github](https://github.com/CIS565-Fall-2020){:target="_blank"}: fork your repos from here
-* [LinkedIn Group](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935){:target="_blank"}: for networking with current and previous course students
+* [**Github**](https://github.com/CIS565-Fall-2020){:target="_blank"}: fork your repos from here
+* [**LinkedIn Group**](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935){:target="_blank"}: for networking with current and previous course students
 
 ## Head Lecturer
 
-**[Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/){:target="_blank"} mza@seas.upenn.edu**
+### [Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/){:target="_blank"} mza@seas.upenn.edu
 
 Office Hours: TBD
 
-![Shehzan Mohammed](assets/images/headshots/shehzan_mohammed.jpg){:class="img-headshots"}
+![Shehzan Mohammed](/assets/images/headshots/shehzan_mohammed.jpg){:class="img-headshots"}
 
 ## Course Advisor
 
-**[Patrick Cozzi](https://www.linkedin.com/in/patrickcozzi/){:target="_blank"}**
+### [Patrick Cozzi](https://www.linkedin.com/in/patrickcozzi/){:target="_blank"}
 
-![Patrick Cozzi](assets/images/headshots/patrick_cozzi.jpg){:class="img-headshots"}
+![Patrick Cozzi](/assets/images/headshots/patrick_cozzi.jpg){:class="img-headshots"}
 
 ## Recommended Reading
 

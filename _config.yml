@@ -42,6 +42,10 @@ logo:                  /assets/icons/upenn.png
 
 # Add links to the sidebar.
 menu:
+  - title:             Hardware and Software Setup
+    url:               /setup/
+  - title:             Course Projects
+    url:               https://github.com/CIS565-Fall-2020/
   - title:             Previous Semesters
     url:               https://cis565-fall-2019.github.io/
 
@@ -194,6 +198,7 @@ exclude:
   - _plugins
   - .sass-cache
 include:
+  - _pages
   - LICENSE.md
 
 
