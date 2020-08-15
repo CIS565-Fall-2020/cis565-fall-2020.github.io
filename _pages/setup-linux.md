@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CIS 565 - Setup instructions for your Windows PC
+title: CIS 565 - Setup instructions for your Linux PC
 description: >
-  This page provides instructions for setting up your Windows PC for CIS 565
+  This page provides instructions for setting up your Linux PC for CIS 565
 hide_description: true
 permalink: /setup-linux/
 ---
