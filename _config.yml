@@ -42,10 +42,12 @@ logo:                  /assets/icons/upenn.png
 
 # Add links to the sidebar.
 menu:
-  - title:             Hardware and Software Setup
-    url:               /setup/
+  - title:             Course Syllabus and Schedule
+    url:               /syllabus/
   - title:             Course Projects
     url:               https://github.com/CIS565-Fall-2020/
+  - title:             Hardware and Software Setup
+    url:               /setup/
   - title:             Previous Semesters
     url:               https://cis565-fall-2019.github.io/
 
