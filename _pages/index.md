@@ -52,7 +52,13 @@ If you have registered as a student for the course, or plan to, please complete 
 
 ### [Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/){:target="_blank"} mza@seas.upenn.edu
 
-Office Hours: TBD
+Office Hours:
+
+* Monday: 5-6PM (US Eastern) + Up to 30 minutes after class ends
+* Wednesday: 5-6PM (US Eastern) + Up to 30 minutes after class ends
+* Sunday: 10-11AM (US Eastern)
+
+Changes to office hour schedule will be made on the CIS 565 Calendar and notified through Piazza.
 
 ![Shehzan Mohammed](/assets/images/headshots/shehzan_mohammed.jpg){:class="img-headshots"}
 
@@ -60,7 +66,13 @@ Office Hours: TBD
 
 ### [Gary Li](https://www.linkedin.com/in/kangning-li-46515553/){:target="_blank"} gary@cesium.com
 
-Office Hours: TBD
+Office Hours:
+
+* Tuesday: 6-7PM (US Eastern)
+* Thursday: 7-8PM (US Eastern)
+* Saturday: 10-11AM (US Eastern)
+
+Changes to office hour schedule will be made on the CIS 565 Calendar and notified through Piazza.
 
 ![Gary Li](/assets/images/headshots/gary_li.jpg){:class="img-headshots"}
 
