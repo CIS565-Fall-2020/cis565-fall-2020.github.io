@@ -55,13 +55,21 @@ If you have registered for the course, or plan to, please complete this **requir
 * [**Github**](https://github.com/CIS565-Fall-2020){:target="_blank"}: fork your repos from here
 * [**LinkedIn Group**](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935){:target="_blank"}: for networking with current and previous course students
 
-## Head Lecturer
+## Lecturer
 
 ### [Shehzan Mohammed](https://www.linkedin.com/in/shehzan-mohammed-a21a783a/){:target="_blank"} mza@seas.upenn.edu
 
 Office Hours: TBD
 
 ![Shehzan Mohammed](/assets/images/headshots/shehzan_mohammed.jpg){:class="img-headshots"}
+
+## Teaching Assistant
+
+### [Gary Li](https://www.linkedin.com/in/kangning-li-46515553/){:target="_blank"} gary@cesium.com
+
+Office Hours: TBD
+
+![Gary Li](/assets/images/headshots/gary_li.jpg){:class="img-headshots"}
 
 ## Course Advisor
 
