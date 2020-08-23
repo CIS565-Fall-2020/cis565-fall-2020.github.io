@@ -26,17 +26,9 @@ For a course more focused on GPU architecture without graphics, see Joe Devietti
 
 ## COVID-19 and Plans for Fall 2020 Semester
 
-The University of Pennsylvania has [announced](https://penntoday.upenn.edu/announcements/message-community-about-penns-plans-fall-semester){:target="_blank"} its plans for the Fall 2020 semester. The University will be taking a hybrid approach to returning to campus, with part in-person teaching and part online classes.
+Please visit the [COVID-19](/covid-19/) page to read more about how CIS 565 will continue to provide the best learning experience possible in Fall 2020 as we switch to remote learning.
 
-The CIS Department, CG@Penn, and CIS 565 team are looking into the best method of instruction and projects for CIS 565. The course will remain programming projects intensive with lecture to support those projects.
-
-CIS 565 will have at least a component of remote lectures, whether that is fully online, or a hybrid of in-class lecture that are streamed/uploaded for our students who cannot attend in-person.
-
-Given the challenges this presents, we will be **enforcing a mandatory course prerequisite of CIS 460/560 or CIS 461/561**. If you have taken a similar computer graphics course, or have professional experience, we will consider that as a valid alternative. Please use the survey below to mark your qualification.
-
-If you are interested in taking the course but do not have the prerequisites completed, please reach out to [Shehzan Mohammed](mailto:mza@seas.upenn.edu). We have to let you know that the course is very graphics and programming intensive and you will find it challenging without a graphics background, especially given that lectures and office hours will be remote.
-
-If you have registered for the course, or plan to, please complete this **required survey: [CIS 565 Fall 2020 Student Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAALDIch9UNFhVQ1hTREZEWUIzVkpDUk83VkNPVU5MRy4u){:target="_blank"}**.
+If you have registered as a student for the course, or plan to, please complete this **required survey: [CIS 565 Fall 2020 Student Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAALDIch9UNFhVQ1hTREZEWUIzVkpDUk83VkNPVU5MRy4u){:target="_blank"}**.
 
 ## Prerequisites
 
