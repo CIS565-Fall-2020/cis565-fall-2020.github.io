@@ -45,6 +45,7 @@ If you have registered as a student for the course, or plan to, please complete 
 ## Github, Schedule, Class Forum, and LinkedIn
 
 * [**Github**](https://github.com/CIS565-Fall-2020){:target="_blank"}: fork your repos from here
+* [**Piazza**](https://piazza.com/upenn/fall2020/cis565){:target="_blank"}: Class forum
 * [**LinkedIn Group**](http://www.linkedin.com/groups/GPU-Programming-Architecture-6540935){:target="_blank"}: for networking with current and previous course students
 
 ## Lecturer
