@@ -34,7 +34,7 @@ permalink: /projects/
 * [**ReSTIR using Vulkan**](https://github.com/lukedan/ReSTIR-Vulkan) -- [Xuecheng Sun](https://www.linkedin.com/in/hehehaha12138/), [Xuanyi Zhou](https://www.linkedin.com/in/xuanyi-zhou-661365192/), [Jiarui Yan](https://www.linkedin.com/in/jiarui-yan-a06bb5197/)
 
 ![team-9.gif](/assets/images/projects/team-9.gif){:class="img-final-projects"}
-* [**A Toy Fluid Engine**](https://github.com/Jack12xl/a-toy-fluid-engine) -- [Ling Xie](https://jack12xl.netlify.app/)
+* [**Euler Fluid Vorticity Enhancement with Taichi**](https://github.com/Jack12xl/a-toy-fluid-engine) -- [Ling Xie](https://jack12xl.netlify.app/)
 
 ![team-10.gif](/assets/images/projects/team-10.gif){:class="img-final-projects"}
 * [**DXR Hybrid Rendering**](https://github.com/ZijingPeng/DXR-Hybrid-Rendering) -- [Shenyue Chen](https://www.linkedin.com/in/shenyue-chen-5b2728119/), [Zijing Peng](https://github.com/ZijingPeng), [Szeyu Chan](https://www.linkedin.com/in/szeyuchan11/)
