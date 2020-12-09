@@ -39,7 +39,7 @@ permalink: /projects/
 ![team-10.gif](/assets/images/projects/team-10.gif){:class="img-final-projects"}
 * [**DXR Hybrid Rendering**](https://github.com/ZijingPeng/DXR-Hybrid-Rendering) -- [Shenyue Chen](https://www.linkedin.com/in/shenyue-chen-5b2728119/), [Zijing Peng](https://github.com/ZijingPeng), [Szeyu Chan](https://www.linkedin.com/in/szeyuchan11/)
 
-## Class Projects
+# Class Projects
 
 | Student                                                                   | Project 1         | Project 2                     | Project 3             | Project 4             | Project 5             |
 |---------------------------------------------------------------------------|-------------------|-------------------------------|-----------------------|-----------------------|-----------------------|
