@@ -12,6 +12,8 @@ permalink: /
 ![dewang.gif](/assets/images/previous_projects/dewang.gif){:class="img-projects"}
 ![grace_caroline.gif](/assets/images/previous_projects/grace_caroline.gif){:class="img-projects"}
 
+## Click here for [CIS 565 Fall 2021](https://cis565-fall-2021.github.io)
+
 ## Course Description
 
 A timeline section from the following topics:
